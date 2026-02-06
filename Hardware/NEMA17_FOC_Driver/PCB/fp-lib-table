@@ -1,0 +1,8 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "STM32G431")(type "KiCad")(uri "/Users/maxmunzner/Library/Mobile Documents/com~apple~CloudDocs/Projects/RobotArm/PCB/Schematics and Footprints/ul_STM32G431KBT6/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "DRV884")(type "KiCad")(uri "/Users/maxmunzner/Library/Mobile Documents/com~apple~CloudDocs/Projects/RobotArm/PCB/Schematics and Footprints/ul_DRV8844PWPR/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "AP63203")(type "KiCad")(uri "/Users/maxmunzner/Library/Mobile Documents/com~apple~CloudDocs/Projects/RobotArm/PCB/Schematics and Footprints/ul_AP63203WU-7/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "SML-LX15")(type "KiCad")(uri "/Users/maxmunzner/Library/Mobile Documents/com~apple~CloudDocs/Projects/RobotArm/PCB/Schematics and Footprints/ul_SML-LX15IGC-TR/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "TCAN332")(type "KiCad")(uri "/Users/maxmunzner/Library/Mobile Documents/com~apple~CloudDocs/Projects/RobotArm/PCB/Schematics and Footprints/ul_TCAN332DR/KiCADv6/footprints.pretty")(options "")(descr ""))
+)

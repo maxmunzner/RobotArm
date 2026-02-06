@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "2026-01-14_19-35-40")(type "KiCad")(uri "/Users/maxmunzner/Library/Mobile Documents/com~apple~CloudDocs/Projects/RobotArm/PCB/Schematics and Footprints/ul_DRV8844PWPR/KiCADv6/2026-01-14_19-35-40.kicad_sym")(options "")(descr ""))
+  (lib (name "2026-01-14_20-50-36")(type "KiCad")(uri "/Users/maxmunzner/Library/Mobile Documents/com~apple~CloudDocs/Projects/RobotArm/PCB/Schematics and Footprints/ul_AP63203WU-7/KiCADv6/2026-01-14_20-50-36.kicad_sym")(options "")(descr ""))
+  (lib (name "2026-01-16_19-06-09")(type "KiCad")(uri "/Users/maxmunzner/Library/Mobile Documents/com~apple~CloudDocs/Projects/RobotArm/PCB/Schematics and Footprints/ul_SML-LX15IGC-TR/KiCADv6/2026-01-16_19-06-09.kicad_sym")(options "")(descr ""))
+)
