@@ -8,9 +8,9 @@ cmake_minimum_required(VERSION 3.22)
 #
 
 # Setup compiler settings
-set(CMAKE_C_STANDARD 11)
-set(CMAKE_C_STANDARD_REQUIRED ON)
-set(CMAKE_C_EXTENSIONS ON)
+set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_CXX_EXTENSIONS OFFs)
 
 
 # Define the build type
@@ -31,9 +31,22 @@ message("Build type: " ${CMAKE_BUILD_TYPE})
 # Enable CMake support for ASM and C languages
 enable_language(C ASM)
 
+file(GLOB FOC_SRC
+        "FOC/*.h"
+        "FOC/*.cpp"
+)
+
 # Create an executable object type
 add_executable(${CMAKE_PROJECT_NAME}
-
+        ${FOC_SRC}
+        FOC/Inc/foc_math.h
+        FOC/Inc/driver.h
+        FOC/Inc/sensor.h
+        FOC/Inc/current_sense.h
+        FOC/Src/current_sense.cpp
+        FOC/Src/driver.cpp
+        FOC/Src/foc_math.cpp
+        FOC/Src/sensor.cpp
 )
 
 # Add STM32CubeMX generated sources
@@ -52,11 +65,6 @@ target_sources(${CMAKE_PROJECT_NAME} PRIVATE
 # Add include paths
 target_include_directories(${CMAKE_PROJECT_NAME} PRIVATE
     # Add user defined include paths
-        FOC/drivers
-        FOC/common
-        FOC/communication
-        FOC/current_sense
-        FOC/sensors
 )
 
 # Add project symbols (macros)
